@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Jost&display=swap');
 /**/
 :root {
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
-  --primary-orange: #f9ab00;
+  --primary-orange: #F2B5C0;
   --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
@@ -15,7 +18,7 @@
 }
 
 body {
-font-family: "Roboto Condensed", sans-serif !important;
+font-family: "Balsamiq Sans", sans-serif !important;
 }
 
 
@@ -43,7 +46,7 @@ nav ul li {
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-white) !important;
+  color: var(--primary-transparent-black) !important;
   border-top: 0.1875rem solid var(--primary-dark);
 }
 
@@ -72,7 +75,7 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url(wall-and-laptop-background.jpg) no-repeat;
+  background-color: #FFF3EB;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -100,7 +103,7 @@ nav ul li {
 /*-------- TYPED TEXT ---------------*/
 .typed-text {
   font-size: 2rem;
-  color: var(--primary-white);
+  color: var(--primary-black);
 }
 
 @media(max-width: 768px) {
@@ -162,7 +165,9 @@ nav ul li {
   color: var(--primary-orange);
   text-transform: uppercase;
 }
-
+.eduction-info{
+  margin-top: 4rem;
+}
 @media(max-width: 468px) {
   .profile-img {
     width: 10rem;
@@ -343,7 +348,7 @@ nav ul li {
    opacity: 0;
    background: var(--primary-black);
    width: 15rem;
-   height: 8rem;
+   height: 14rem;
    top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;

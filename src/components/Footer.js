@@ -17,13 +17,13 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>city Moscow Main st 2020 office #223</p>
+              <p></p>
             </div>
             <div className="d-flex">
-              <a href="tel:555-555-555">+7(960)555-5555</a>
+              <a href="tel:555-555-555"></a>
             </div>
             <div className="d-flex">
-              <p>8020coding@gmail.com</p>
+              <p>SloanZhang303@gmail.com</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-2 col-sm-6">
@@ -31,14 +31,14 @@ const Footer = () => {
               <div className="col">
                 <a className="footer-nav">Home</a>
                 <br />
-                <a className="footer-nav">About me</a>
+                <a className="footer-nav">Education</a>
                 <br />
-                <a className="footer-nav">Services</a>
+                <a className="footer-nav">Skill</a>
               </div>
               <div className="col">
                 <a className="footer-nav">Experience</a>
                 <br />
-                <a className="footer-nav">Portfolio</a>
+                <a className="footer-nav">Project</a>
                 <br />
                 <a className="footer-nav">Contacts</a>
               </div>
@@ -77,7 +77,7 @@ const Footer = () => {
             </div>
             <p className="pt-3 text-center">
               Copyright&copy;
-              {new Date().getFullYear()}&nbsp;New Horizon | All Rights Reserved
+              {new Date().getFullYear()}&nbsp;
             </p>
           </div>
         </div>
