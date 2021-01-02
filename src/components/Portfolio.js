@@ -1,4 +1,8 @@
 import React from "react";
+// Images
+import blokusCover from "../images/Blokus/blokus-cover.jpg"
+import chompCover from "../images/Chomp/chomp-cover.jpg"
+import pathFindingCover from "../images/pathfinding/pathfinding-cover.jpg"
 import netflix from "../images/netflix.png";
 import cityGuide from "../images/city-guide-app.png";
 import portfolio from "../images/portfolio.png";
@@ -108,22 +112,22 @@ const Pofrfolio = () => {
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">portfolio</h1>
+        <h1 className="text-uppercase text-center py-5">Project</h1>
         <div className="image-box-wrapper row justify-content-center">
           <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
-            <img className="portfolio-image" src={netflix} alt="Netflix Clone Project..." />
+            <img className="portfolio-image" src={blokusCover} alt="Blokus Project" />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
-            <img className="portfolio-image" src={cityGuide} alt="City Guide Project..." />
+            <img className="portfolio-image" src={chompCover} alt="ChompProject" />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
-            <img className="portfolio-image" src={portfolio} alt="Portfolio React and Material UI Project..." />
+            <img className="portfolio-image" src={pathFindingCover} alt="Path Finding Project" />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>

@@ -8,15 +8,17 @@ const Header = () => {
     <div id="home" className="header-wraper">
       <div className="main-info">
         <canvas></canvas>
-        <h1>web development and websites promotions</h1>
+        <h1>Hi! My name is Yimiao Zhang</h1>
         <Typed
           className="typed-text"
-          strings={["Web Design", "Web Development", "Facebook Ads SMM", "Google Ads"]}
+          strings={["I have degree in both Finance and Computer Science", 
+                    "I love solving problems", 
+                    "I love game development", "I love learning new languages"]}
           typeSpeed={40}
           backSpeed={60}
           loop
         />
-        <Link smooth={true} to="contacts" offset={-110} className="btn-main-offer">contact me</Link>
+        <Link smooth={true} to="contacts" offset={-150} className="btn-main-offer">contact me</Link>
       </div>
     </div>
   )
