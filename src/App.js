@@ -11,6 +11,10 @@ import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 
+import Blokus from "./projects/Blokus";
+import { Switch } from 'react-router-dom';
+import {BrowserRouter, Route} from "react-router-dom";
+
 function App() {
   return (
     <>
@@ -44,6 +48,9 @@ function App() {
       <Testimonials />
       <Contacts />
       <Footer />
+    
+
+
     </>
   );
 }
