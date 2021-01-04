@@ -12,10 +12,10 @@ const TestimonialsCarousel = () => {
   return (
     <Carousel
       showArrows={true}
-      infiniteLoop={true}
+      infiniteLoop={false}
       showThumbs={false}
       showStatus={false}
-      autoPlay={true}
+      autoPlay={false}
       interval={3000}
     >
       <>

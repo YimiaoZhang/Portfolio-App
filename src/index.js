@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, Route} from "react-router-dom";
-import App from './App';
+import Home from './Home';
+import Blokus from './projects/Blokus';
+import Chomp from './projects/Chomp';
+import PathFinding from './projects/PathFinding';
 import reportWebVitals from './reportWebVitals';
-
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 ReactDOM.render(
   <BrowserRouter>
-    <Route path = "/" component = {App} />
+    <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/projects/Blokus" component={Blokus} />
+        <Route path="/projects/Chomp" component={Chomp} />
+        <Route path="/projects/PathFinding" component={PathFinding} />
+    </Switch>
   </BrowserRouter>,
 
   document.getElementById('root')
