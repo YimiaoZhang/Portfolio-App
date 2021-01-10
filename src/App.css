@@ -22,7 +22,6 @@ body {
 font-family: "Balsamiq Sans", sans-serif !important;
 }
 
-
 /************************ NAVBAR *********************************/
 
 nav {
@@ -85,24 +84,33 @@ nav ul li {
   height: 100vh;
 }
 
+
 .main-info {
   display: flex;
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   z-index: 1;
+  border: 12px solid var(--primary-black);
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .main-info h1 {
   color: var(--primary-pink);
   text-transform: uppercase;
 }
+.info-panel{
+  text-align: center;
+}
+
 
 /*-------- TYPED TEXT ---------------*/
 .typed-text {
@@ -135,6 +143,23 @@ nav ul li {
   background-color: var(--primary-hover-red);
   color: var(--primary-white);
   transition:  .2s ease-in-out;
+}
+
+.social-link .btn{
+  background-color: var(--primary-pink);
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  border-radius: 50%;
+}
+
+.options {
+  margin-top: 400px;
 }
 
 /*-------- PARTICLES JS ---------------*/

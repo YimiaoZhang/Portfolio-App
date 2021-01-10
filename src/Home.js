@@ -35,14 +35,9 @@ function Home () {
           }
         }}
       />
-      <Navbar />
+
       <Header />
-      <AboutMe />
-      <Services />
-      <Experience />
-      <Portfolio />
-      <Contacts />
-      <Footer />
+
     </>
   )
 }
