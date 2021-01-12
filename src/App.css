@@ -89,7 +89,7 @@ nav ul li {
   display: flex;
   position: absolute;
   top: 10%;
-  left: 10%;
+
   right: 10%;
   bottom: 10%;
   flex-direction: column;
@@ -109,6 +109,9 @@ nav ul li {
 }
 .info-panel{
   text-align: center;
+}
+.main-menu-btn{
+  margin-top: 10%;
 }
 
 

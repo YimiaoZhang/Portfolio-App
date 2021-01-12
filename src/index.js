@@ -9,7 +9,10 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-        <Route exact path="/" component={Home} />
+        <Route path="/" component={Home} />
+        <Route path="/eduction" component={Home} />
+        <Route path="/skills" component={Home} />
+        <Route path="/experience" component={Home} />
         <Route path="/projects/Blokus" component={Blokus} />
         <Route path="/projects/Chomp" component={Chomp} />
         <Route path="/projects/PathFinding" component={PathFinding} />

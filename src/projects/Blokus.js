@@ -7,7 +7,7 @@ import {faArrowRight}from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../components/Navbar";
 import ImgMainMenu from "../images/Blokus/Main menu.PNG";
 import ImgSettingMenu from "../images/Blokus/settingMenu.PNG";
-import ImgGamePlay from "../images/Blokus/gamePlay.png";
+import ImgGamePlay from "../images/Blokus/gamePlay.PNG";
 import ImgScore    from "../images/Blokus/score.PNG";
 function Blokus () {
     return (
