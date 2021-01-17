@@ -36,7 +36,7 @@ function PathFinding() {
         {/* Title */}
         <div class="section-header text-center">
             <h1 class="title">Improve A * search Algorithm using Jump Point Search</h1>
-            <h4><a href = "/pathfindingProject/index.html" target = "_blank">pathfinding project online</a></h4>
+            <h4><a target = "_blank">pathfinding project online</a></h4>
             <h4>Source Code <a href = "https://github.com/YimiaoZhang/JPS-pathfinding">github</a> </h4>
         </div>
 
