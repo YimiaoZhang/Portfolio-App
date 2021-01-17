@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../logo.png";
+
 import { Link } from "react-scroll";
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,25 +20,21 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <Link smooth={true} to="home" className="nav-link" href="#">
-                <NavLink to = "/"> Home </NavLink>
+                Home 
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="about" offset={-110} className="nav-link" >           <NavLink to = "/">Education</NavLink></Link>
+              <Link smooth={true} to="about" offset={-110} className="nav-link">Education</Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="services" offset={-110} className="nav-link" href="#"><NavLink to = "/">Skill</NavLink></Link>
+              <Link smooth={true} to="services" offset={-110} className="nav-link" href="#">Skill</Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="experience" offset={-110} className="nav-link" > <NavLink to = "/">experience</NavLink></Link>
+              <Link smooth={true} to="experience" offset={-110} className="nav-link" >experience</Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="portfolio" offset={-110} className="nav-link" ><NavLink to = "/">Project</NavLink></Link>
-            </li>
-
-            <li className="nav-item">
-              <Link smooth={true} to="contacts" offset={-110} className="nav-link" ><NavLink to = "/">contacts</NavLink></Link>
+              <Link smooth={true} to="portfolio" offset={-110} className="nav-link" >Project</Link>
             </li>
 
           </ul>

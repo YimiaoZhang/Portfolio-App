@@ -117,7 +117,7 @@ const Pofrfolio = () => {
         <div className="image-box-wrapper row justify-content-center">
           <div className="portfolio-image-box" >
           <img className="portfolio-image" src={blokusCover} alt="Blokus Project" />
-          <Link to ="/projects/Blokus">
+          <Link to ="/projects/Blokus" target = "_blank">
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </Link>            
@@ -125,7 +125,7 @@ const Pofrfolio = () => {
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
             <img className="portfolio-image" src={chompCover} alt="ChompProject" />
-            <Link to ="/projects/Chomp">
+            <Link to ="/projects/Chomp" target = "_blank">
               <div className="overflow"></div>
               <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
             </Link>
@@ -133,7 +133,7 @@ const Pofrfolio = () => {
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
             <img className="portfolio-image" src={pathFindingCover} alt="Path Finding Project" />
-            <Link to ="/projects/PathFinding">
+            <Link to ="/projects/PathFinding" target = "_blank">
               <div className="overflow"></div>
               <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
             </Link>
@@ -146,10 +146,7 @@ const Pofrfolio = () => {
           </div>
         </div>
       </div>
-      <PopupboxContainer {...popupboxConfigNetflix} />
-      <PopupboxContainer {...popupboxConfigCityGuide} />
-      <PopupboxContainer {...popupboxConfigPortfolio} />
-      <PopupboxContainer {...popupboxConfigTaskManager} />
+
     </div>
 
   )

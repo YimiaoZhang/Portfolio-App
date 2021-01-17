@@ -41,8 +41,7 @@ function Home () {
       <Services />
       <Experience />
       <Portfolio />
-      <Contacts />
-      <Footer />
+      
     </>
   )
 }

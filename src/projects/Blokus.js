@@ -7,23 +7,12 @@ import {faArrowRight}from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../components/Navbar";
 import ImgMainMenu from "../images/Blokus/Main menu.PNG";
 import ImgSettingMenu from "../images/Blokus/settingMenu.PNG";
-import ImgGamePlay from "../images/Blokus/gamePlay.png";
+import ImgGamePlay from "../images/Blokus/gamePlay.PNG";
 import ImgScore    from "../images/Blokus/score.PNG";
 function Blokus () {
     return (
-        <>
-            <Navbar />
 
-            <Carousel
-                showArrows={true}
-                infiniteLoop={false}
-                showThumbs={true}
-                showStatus={true}
-                autoPlay={false}
-                interval={3000}
-            >
-            
-            <div class="container" className = "project-carousel">
+            <div class="container" >
                 <div class="section-header text-center" > 
                     <h1 class="title">Blokus</h1> 
                     <h4>Source Code <a href = "https://github.com/YimiaoZhang/Blokus">github</a> </h4>
@@ -58,11 +47,8 @@ function Blokus () {
                     <img src = {ImgScore} class="section md-padding bg-grey" />
                 </div>
             </div>
-            <div></div>
-        
-            </Carousel>
-            
-        </>
+
+
     );
 }
 
