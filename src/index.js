@@ -7,7 +7,7 @@ import PathFinding from './projects/PathFinding';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={"/"}>
     <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/projects/Blokus" component={Blokus} />
