@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 /**/
 :root {
   --primary-white: #ffffff;
@@ -19,7 +20,7 @@
 }
 
 body {
-font-family: "Balsamiq Sans", sans-serif !important;
+font-family: "Raleway", sans-serif !important;
 }
 
 
@@ -149,25 +150,33 @@ nav ul li {
 }
 
 /************************ ABOUT ME *********************************/
+
 .photo-wrap {
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .profile-img {
   width: 14rem;
   padding: .3rem;
-  border: 2px solid var(--primary-pink);
+  border: 3px solid var(--primary-pink);
 }
 
 .about-heading {
   color: var(--primary-black);
   text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 800;
 }
 .eduction-info{
   margin-top: 4rem;
 }
+.eduction-info h5{
+  font-weight: bold;
+}
+
 @media(max-width: 468px) {
   .profile-img {
     width: 10rem;
@@ -182,8 +191,10 @@ nav ul li {
 }
 
 .services h1 {
-  color: var(--primary-dark);
+  color: var(--primary-black);
   text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .services .circle {
@@ -244,6 +255,19 @@ nav ul li {
 
 .experience h1 {
   text-transform: uppercase;
+  color: var(--primary-black);
+  font-size: 36px;
+  font-weight: bold;
+}
+.experience h4{
+  color: var(--primary-black);
+  font-weight: bold;
+}
+.experience h6{
+  color: var(--primary-black);
+  font-style: italic;
+}
+.experience p{
   color: var(--primary-black);
 }
 
@@ -329,29 +353,36 @@ nav ul li {
 
 .portfolio-wrapper h1 {
   color: var(--primary-black);
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .portfolio-image {
-  width: 15rem;
-  border: 1px solid var(--primary-pink);
-  padding: 0 0.5rem;
+  width: 20rem;
+  height: 20rem;
+  border: 0px solid var(--primary-pink);
 }
 
 .portfolio-image-box {
+  width: 20rem;
+  height: 20rem;
   position: relative;
   margin: 1rem;
 }
 
 /*------------ OVERFLOW BOX ------------------*/
 .overflow {
-  position: absolute;
-   opacity: 0;
-   background: var(--primary-black);
-   width: 15rem;
-   height: 14rem;
-   top: 0;
+  position:absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 22rem;
+  height: 22rem;
+  margin-left: -1rem;
+  margin-top: -1rem;
+  top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
+  
 }
 
 .portfolio-image-box:hover .overflow {
@@ -359,12 +390,13 @@ nav ul li {
   transition: 0.3s ease-in-out;
 }
 
+
 .portfolio-icon {
   position: absolute;
   justify-content: center;
   opacity: 0;
-  margin-left: -8rem;
-  margin-top: 6.0rem;
+  margin-left: -10rem;
+  margin-top: 9.0rem;
   color: var(--primary-pink);
   font-size: 1.5rem;
 }
@@ -378,6 +410,53 @@ nav ul li {
 .popupbox-wrapper {
   margin-top: 7rem;
 }
+
+.work .work-content h3 {
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  opacity: 0;
+  color: #FFF;
+  margin-bottom: 10px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.work:hover .work-content h3 {
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 1;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.work .work-content span {
+  display: block;
+  text-transform: uppercase;
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  opacity: 0;
+  color: #6195FF;
+  margin-bottom: 5px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.work:hover .work-content span {
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
 
 /*------------ OVERFLOW BOX ------------------*/
 .portfolio-image-popupbox {

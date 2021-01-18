@@ -11,11 +11,11 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="col-lg-6 col-xm-12">
-          <h1 className="about-heading">Education</h1>
+          <h2 className="about-heading">Education</h2>
           <p className = "eduction-info">
-              <h4>Memorial University of Newfoundland, Canada</h4>
+              <h5>Memorial University of Newfoundland, Canada</h5>
               <h6>Bachelor of Science in Computer Science in Progress </h6>
-              <h4>Harbin Institute of Technology, China</h4>
+              <h5>Harbin Institute of Technology, China</h5>
               <h6>Bachelor of Economics in Finance  </h6>
           </p>
         </div>

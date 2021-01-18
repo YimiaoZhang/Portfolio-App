@@ -115,15 +115,17 @@ const Pofrfolio = () => {
       
         <h1 className="text-uppercase text-center py-5">Project</h1>
         <div className="image-box-wrapper row justify-content-center">
+          {/* - */}
           <div className="portfolio-image-box" >
-          <img className="portfolio-image" src={blokusCover} alt="Blokus Project" />
-          <Link to ="/projects/Blokus" target = "_blank">
-            <div className="overflow"></div>
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-          </Link>            
+            <img className="portfolio-image" src={blokusCover} alt="Blokus Project" />
+            <Link to ="/projects/Blokus" target = "_blank">
+              <div className="overflow"> </div>
+                <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+              
+            </Link>            
           </div>
           {/* - */}
-          <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
+          <div className="portfolio-image-box" >
             <img className="portfolio-image" src={chompCover} alt="ChompProject" />
             <Link to ="/projects/Chomp" target = "_blank">
               <div className="overflow"></div>
@@ -131,18 +133,12 @@ const Pofrfolio = () => {
             </Link>
           </div>
           {/* - */}
-          <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
+          <div className="portfolio-image-box" >
             <img className="portfolio-image" src={pathFindingCover} alt="Path Finding Project" />
             <Link to ="/projects/PathFinding" target = "_blank">
               <div className="overflow"></div>
               <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
             </Link>
-          </div>
-          {/* - */}
-          <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
-            <img className="portfolio-image" src={taskManager} alt="Task Manager React and Redux Project..." />
-            <div className="overflow"></div>
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
         </div>
       </div>
