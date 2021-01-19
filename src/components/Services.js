@@ -40,7 +40,7 @@ const Services = () => {
               <div className="circle"><FontAwesomeIcon className="icon" icon={faTools} size="2x" /></div>
 
               <h3>Software</h3>
-              <p>Microsoft Access, SPSS, Adobe Premiere Pro</p>.
+              <p>Microsoft Access, SPSS, Adobe Premiere Pro</p>
               </div>
           </div>
         </div>
