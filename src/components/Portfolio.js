@@ -108,7 +108,7 @@ const Pofrfolio = () => {
 
 
   return (
-    <div id="portfolio" class="section md-padding bg-grey">
+    <div id="portfolio" class="portfolio section md-padding bg-grey border">
       <div className="container">
 
         <h1 className="text-uppercase text-center py-5">Project</h1>
