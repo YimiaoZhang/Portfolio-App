@@ -3,9 +3,10 @@ import '../App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faArrowRight}from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight }from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../components/Navbar";
-
+import 'semantic-ui-css/semantic.min.css';
+import { Divider } from 'semantic-ui-react';
 // Images 
 import sampleStates from "../images/pathfinding/sampleStates.PNG";
 import Img00 from "../images/pathfinding/00.PNG";
@@ -31,15 +32,15 @@ import Img19 from "../images/pathfinding/19.png";
 function PathFinding() {
     return (
 
-
+      <div class = "project">
       <div class="container">
         {/* Title */}
         <div class="section-header text-center">
             <h1 class="title">Improve A * search Algorithm using Jump Point Search</h1>
-            <h4><a href = "https://yimiaozhang-pathfinding.netlify.app" target = "_blank">pathfinding project online</a></h4>
-            <h4>Source Code <a href = "https://github.com/YimiaoZhang/JPS-pathfinding">github</a> </h4>
+            <h4 class="project-link"><a href = "https://yimiaozhang-pathfinding.netlify.app" target = "_blank">pathfinding project online</a></h4>
+            <h4 class="project-link">Source Code <a href = "https://github.com/YimiaoZhang/JPS-pathfinding">github</a> </h4>
         </div>
-
+        <Divider/>
         {/* Paragraph */}
         <div className = "paragraph">
             <h3>Introduction</h3>
@@ -432,7 +433,7 @@ function PathFinding() {
               For example, using different data structures to store the open list and closed list.</p>
         </div>
         </div>
-
+        </div>
     )
 }
 

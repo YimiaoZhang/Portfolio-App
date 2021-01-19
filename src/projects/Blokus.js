@@ -5,19 +5,21 @@ import { Carousel } from "react-responsive-carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faArrowRight}from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../components/Navbar";
+import { Divider } from 'semantic-ui-react';
 import ImgMainMenu from "../images/Blokus/Main menu.PNG";
 import ImgSettingMenu from "../images/Blokus/settingMenu.PNG";
 import ImgGamePlay from "../images/Blokus/gamePlay.PNG";
 import ImgScore    from "../images/Blokus/score.PNG";
 function Blokus () {
     return (
-
+            <div class = "project">
             <div class="container" >
                 <div class="section-header text-center" > 
                     <h1 class="title">Blokus</h1> 
-                    <h4>Source Code <a href = "https://github.com/YimiaoZhang/Blokus">github</a> </h4>
+                    <h4 class="project-link">Source Code <a href = "https://github.com/YimiaoZhang/Blokus">github</a> </h4>
              
                 </div>
+                <Divider/>
                 <h3>Introduction</h3>  
                 <p>Blokus is an abstract strategy board game for two to four players, where players try to score points by occupying most of the board with pieces of their colour. It was invented by Bernard Tavitian and first released in 2000 by Sekkoïa, a French company. It has won several awards, including the Mensa Select award and the 2004 Teacher's Choice Award. In 2009, the game was sold to Mattel.</p>
                 <h3>GamePlay</h3> 
@@ -47,7 +49,7 @@ function Blokus () {
                     <img src = {ImgScore} class="section md-padding bg-grey" />
                 </div>
             </div>
-
+        </div>
 
     );
 }

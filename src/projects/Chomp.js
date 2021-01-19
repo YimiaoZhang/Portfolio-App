@@ -6,15 +6,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faArrowRight}from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../components/Navbar";
 import ImgGamePlay from"../images/Chomp/gameplay.PNG";
-
+import { Divider } from 'semantic-ui-react';
 function Chomp() {
     return (
-
+      <div class = "project">
         <div class="container">
           <div class="section-header text-center">
             <h1 class="title">Chomp</h1>
-            <h4>Source Code <a href = "https://github.com/YimiaoZhang/Chomp">github</a> </h4>
+            <h4 class="project-link">Source Code <a href = "https://github.com/YimiaoZhang/Chomp">github</a> </h4>
           </div>
+          <Divider/>
           <p>A java program that lets user play the game of Chomp against the computer</p>
           <h3>Game Introduction</h3>
           <p>Chomp is a two-player strategy game played on a rectangular chocolate bar made up of smaller square blocks (cells). The players take it in turns to choose one block and "eat it" (remove from the board), together with those that are below it and to its right. The top left block is "poisoned" and the player who eats this loses.</p>
@@ -37,7 +38,7 @@ function Chomp() {
           </div>
   
         </div>
-
+      </div>
     )
 }
 

@@ -113,9 +113,35 @@ const Pofrfolio = () => {
 
         <h1 className="text-uppercase text-center py-5">Project</h1>
         <div className="row">
-          {/* - */}
 
-          <div class="col-md-4 col-xs-6 work">
+          {/* Pathfinding */}
+          <div class="col-md-3 col-xs-6 work">
+            <img className="portfolio-image" src={pathFindingCover} alt="Pathfinding Project"/>
+            <div class="overlay"></div>
+            <div class="work-content">
+              <span>javascript</span>
+              <h3>Pathfinding</h3>
+              <div class="work-link">
+                <Link to="/projects/PathFinding" target = "_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
+              </div>
+            </div>
+				  </div>          
+
+          {/* Pathfinding */}
+          <div class="col-md-3 col-xs-6 work">
+            <img className="portfolio-image" src={pathFindingCover} alt="2D Platformer Game"/>
+            <div class="overlay"></div>
+            <div class="work-content">
+              <span>C++</span>
+              <h3>2D Platformer Game</h3>
+              <div class="work-link">
+                <Link to="/projects/PathFinding" target = "_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
+              </div>
+            </div>
+				  </div>               
+
+          {/* Blokus */}
+          <div class="col-md-3 col-xs-6 work">
             <img className="portfolio-image" src={blokusCover} alt="Blokus Project"/>
             
             <div class="overlay"></div>
@@ -128,7 +154,8 @@ const Pofrfolio = () => {
             </div>
 				  </div>
 
-          <div class="col-md-4 col-xs-6 work">
+          {/* Chomp */}
+          <div class="col-md-3 col-xs-6 work">
             <img className="portfolio-image" src={chompCover} alt="ChompProject"/>
             <div class="overlay"></div>
             <div class="work-content">
@@ -140,17 +167,7 @@ const Pofrfolio = () => {
             </div>
 				  </div>
 
-          <div class="col-md-4 col-xs-6 work">
-            <img className="portfolio-image" src={pathFindingCover} alt="Pathfinding Project"/>
-            <div class="overlay"></div>
-            <div class="work-content">
-              <span>javascript</span>
-              <h3>Pathfinding</h3>
-              <div class="work-link">
-                <Link to="/projects/PathFinding" target = "_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
-              </div>
-            </div>
-				  </div>
+
         </div>
       </div>
 
