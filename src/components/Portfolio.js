@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
-import "react-popupbox/dist/react-popupbox.css";
+
 
 // Project Pages
 import {Link } from "react-router-dom"; 
