@@ -900,6 +900,65 @@ width: 200px;
   margin-top: 3%;
 }
 
+.aws-btn {
+  --button-default-height: 50px;
+  --button-default-font-size: 18px;
+  --button-default-border-radius: 30px;
+  --button-horizontal-padding: 22px;
+  --button-raise-level: 5px;
+  --button-hover-pressure: 2;
+  --transform-speed: 0.185s;
+  --button-primary-color: #000000;
+  --button-primary-color-dark: #2a3143;
+  --button-primary-color-light: #a4a5a8;
+  --button-primary-color-hover: #424e6a;
+  --button-primary-border: none;
+  --button-secondary-color: #103570;
+  --button-secondary-color-dark: #174178;
+  --button-secondary-color-light: #000000;
+  --button-secondary-color-hover: #3d77ff;
+  --button-secondary-border: 0px solid #FFFFFF;
+  --button-anchor-color: #f3c8ad;
+  --button-anchor-color-dark: #734922;
+  --button-anchor-color-light: #4c3016;
+  --button-anchor-color-hover: #f1bfa0;
+  --button-anchor-border: 1px solid #8c633c;
+  --button-disabled-color: #AFAFAF;
+  --button-disabled-color-dark: #898989;
+  --button-disabled-color-light: #969696;
+  --button-disabled-color-hover: #AFAFAF;
+  --button-disabled-color-active: #AFAFAF;
+  --button-disabled-border: none;
+  --button-placeholder-color: #AFAFAF;
+  --button-placeholder-color-dark: #898989;
+  --button-placeholder-color-light: #969696;
+  --button-placeholder-color-hover: #AFAFAF;
+  --button-placeholder-color-active: #AFAFAF;
+  --button-placeholder-border: none;
+  --button-mail-color: #cfcfcf;
+  --button-mail-color-dark: #9c9c9c;
+  --button-facebook-color: #4868ad;
+  --button-facebook-color-dark: #324877;
+  --button-messenger-color: #3186f6;
+  --button-messenger-color-dark: #0960d1;
+  --button-twitter-color: #00aced;
+  --button-twitter-color-dark: #0074a1;
+  --button-linkedin-color: #0077b5;
+  --button-linkedin-color-dark: #004569;
+  --button-whatsapp-color: #25d366;
+  --button-whatsapp-color-dark: #1a9247;
+  --button-github-color: #25292e;
+  --button-github-color-dark: #030304;
+  --button-reddit-color: #fc461e;
+  --button-reddit-color-dark: #cb2703;
+  --button-pinterest-color: #bd091c;
+  --button-pinterest-color-dark: #740611;
+  --button-gplus-color: #ce5b4e;
+  --button-gplus-color-dark: #a3392d;
+  --button-youtube-color: #cc181e;
+  --button-youtube-color-dark: #881014;
+  --button-instagram-radial-color: radial-gradient(circle at 25% 110%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  --button-instagram-radial-color-dark: radial-gradient(circle at 25% 110%, #b9a800 0%, #938500 5%, #b10f00 45%, #8c0061 60%, #002ca9 90%); }
 
 
 
