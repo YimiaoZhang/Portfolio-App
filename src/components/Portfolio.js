@@ -13,7 +13,6 @@ import { faSearchPlus, faExternalLinkAlt } from "@fortawesome/free-solid-svg-ico
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 
-
 // Project Pages
 import {Link } from "react-router-dom"; 
 const Pofrfolio = () => {
