@@ -30,7 +30,7 @@ import Img18 from "../images/pathfinding/18.png";
 import Img19 from "../images/pathfinding/19.png";
 function PathFinding() {
     return (
-    <div id="portfolio" class="section md-padding bg-grey">
+
 
       <div class="container">
         {/* Title */}
@@ -432,7 +432,7 @@ function PathFinding() {
               For example, using different data structures to store the open list and closed list.</p>
         </div>
         </div>
-      </div>
+
     )
 }
 

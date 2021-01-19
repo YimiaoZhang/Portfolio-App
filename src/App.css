@@ -102,6 +102,11 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.main-info a {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
 /*-------- TYPED TEXT ---------------*/
 .typed-text {
   font-size: 2rem;
@@ -354,20 +359,13 @@ nav ul li {
 .portfolio-wrapper h1 {
   color: var(--primary-black);
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 800;
 }
 
-.portfolio-image {
-  width: 20rem;
-  height: 20rem;
-  border: 0px solid var(--primary-pink);
-}
-
-.portfolio-image-box {
-  width: 20rem;
-  height: 20rem;
-  position: relative;
-  margin: 1rem;
+.py-5{
+  color: var(--primary-black);
+  font-size: 36px;
+  font-weight: 800;
 }
 
 /*------------ OVERFLOW BOX ------------------*/
@@ -409,6 +407,59 @@ nav ul li {
 
 .popupbox-wrapper {
   margin-top: 7rem;
+}
+
+#portfolio {
+	padding: 100px 0;
+}
+.portfolio-item {
+	margin: 1px -15px 0 -14px;
+	padding: 0;
+}
+.portfolio-item .hover-bg {
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+}
+
+.work {
+  position: relative;
+  padding: 20px;
+}
+
+.work>img {
+width: 100%;
+}
+
+.work .overlay {
+  background: #1C1D21;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.work:hover .overlay {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  opacity: 0.8;
+}
+
+.work .work-content {
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .work .work-content h3 {
@@ -455,6 +506,30 @@ nav ul li {
   opacity: 1;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
+}
+
+.work .work-link {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+}
+
+.work .work-link a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #6195FF;
+  color: #FFF;
+  line-height: 50px;
+  text-align: center;
+}
+
+.work:hover .work-link {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  opacity: 1;
 }
 
 

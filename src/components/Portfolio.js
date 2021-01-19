@@ -9,7 +9,7 @@ import portfolio from "../images/portfolio.png";
 import taskManager from "../images/task-manager.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
+import { faSearchPlus, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
@@ -110,36 +110,49 @@ const Pofrfolio = () => {
 
 
   return (
-    <div id="portfolio" className="portfolio-wrapper">
+    <div id="portfolio" class="section md-padding bg-grey">
       <div className="container">
-      
+
         <h1 className="text-uppercase text-center py-5">Project</h1>
-        <div className="image-box-wrapper row justify-content-center">
+        <div className="row">
           {/* - */}
-          <div className="portfolio-image-box" >
-            <img className="portfolio-image" src={blokusCover} alt="Blokus Project" />
-            <Link to ="/projects/Blokus" target = "_blank">
-              <div className="overflow"> </div>
-                <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-              
-            </Link>            
-          </div>
-          {/* - */}
-          <div className="portfolio-image-box" >
-            <img className="portfolio-image" src={chompCover} alt="ChompProject" />
-            <Link to ="/projects/Chomp" target = "_blank">
-              <div className="overflow"></div>
-              <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-            </Link>
-          </div>
-          {/* - */}
-          <div className="portfolio-image-box" >
-            <img className="portfolio-image" src={pathFindingCover} alt="Path Finding Project" />
-            <Link to ="/projects/PathFinding" target = "_blank">
-              <div className="overflow"></div>
-              <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-            </Link>
-          </div>
+
+          <div class="col-md-4 col-xs-6 work">
+            <img className="portfolio-image" src={blokusCover} alt="Blokus Project"/>
+            
+            <div class="overlay"></div>
+            <div class="work-content">
+              <span>Java</span>
+              <h3>Blokus</h3>
+              <div class="work-link">
+              <Link to="/projects/Blokus" target = "_blank" ><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
+              </div>
+            </div>
+				  </div>
+
+          <div class="col-md-4 col-xs-6 work">
+            <img className="portfolio-image" src={chompCover} alt="ChompProject"/>
+            <div class="overlay"></div>
+            <div class="work-content">
+              <span>Java</span>
+              <h3>Chomp</h3>
+              <div class="work-link">
+                <Link to="/projects/Chomp" target = "_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
+              </div>
+            </div>
+				  </div>
+
+          <div class="col-md-4 col-xs-6 work">
+            <img className="portfolio-image" src={pathFindingCover} alt="Pathfinding Project"/>
+            <div class="overlay"></div>
+            <div class="work-content">
+              <span>javascript</span>
+              <h3>Pathfinding</h3>
+              <div class="work-link">
+                <Link to="/projects/PathFinding" target = "_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
+              </div>
+            </div>
+				  </div>
         </div>
       </div>
 

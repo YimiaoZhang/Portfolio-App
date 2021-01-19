@@ -9,9 +9,7 @@ import ImgGamePlay from"../images/Chomp/gameplay.PNG";
 
 function Chomp() {
     return (
-        <div id="portfolio" class="section md-padding bg-grey">
 
-        
         <div class="container">
           <div class="section-header text-center">
             <h1 class="title">Chomp</h1>
@@ -39,7 +37,7 @@ function Chomp() {
           </div>
   
         </div>
-        </div>
+
     )
 }
 
