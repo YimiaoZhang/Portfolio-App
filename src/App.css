@@ -433,6 +433,14 @@ nav ul li {
   font-size: 36px;
   font-weight: 800;
 }
+
+.portfolio-image{
+  display:flex !important;
+  max-width: 100%;
+  max-height: 100%;
+  align-items: center !important;
+  justify-content: center !important;
+}
 /************ PORTFOLIO ************\
 /*----------- OVERFLOW BOX --- ----*/
 .overflow {
@@ -805,6 +813,17 @@ textarea.form-control {
 .project-link{
   margin-top: -1% !important;
   text-align: center;
+}
+.entity-title{
+  margin-top: 5% !important;
+}
+
+.screenshotImg{
+  max-width: 100%;
+  max-height: 100%;
+  display: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .myCarousel {

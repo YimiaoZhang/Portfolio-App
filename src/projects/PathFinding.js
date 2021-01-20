@@ -55,8 +55,8 @@ function PathFinding() {
             <p>Jump Point Search is an optimization to the A* search algorithm for uniform-cost grids which speeds up pathfinding by “jumping over” many locations that would not be considered. The optimization is done by reducing the symmetries in the search and eliminating certain nodes that can be made about the current node’s neighbours when specific conditions are satisfied. Instead of grabbing every neighbour around the node being expanded and doing all the evaluation of them, Jump Point Search move along a direction recursively until finding a point of interest or meet an obstacle.</p>
             <p>The environment of the problem is the uniform cost grid map. Every gird of the map represents a coordinate in the map. The goal state is to find the optimal path from the starting location to the ending location. Different colours of the grid represent different terrain of the map. The path can only go through the grids with the same colour. For example, when the colour of the start point is green, then the path can only go through green grids. Also, the path search is only permitted inside the map, searching outside the map is not allowed. This project allows the path searching to move in eight directions, the cost of the cardinal move is 100, and the cost of the diagonal move is 141.</p>
             <div class="section-header text-center">
-                <h5 class="section md-padding bg-grey">Screenshots of sample states of the environment</h5>
-            <   img src = {sampleStates} class="section md-padding bg-grey" />
+                <h5 class="section md-padding bg-grey entity-title">Screenshots of sample states of the environment</h5>
+                <img src = {sampleStates} class="section md-padding bg-grey screenshotImg" />
             </div>
         </div>
 
@@ -86,7 +86,7 @@ function PathFinding() {
                     neighbours of the node we can ignore.</p>                 
                 </div>
               </div>
-              <div class="col-xs-12 col-md-6"> <div class = "fixedSmallImage"><img src={Img01} class="img-responsive" alt=""/> </div></div>
+              <div class="col-xs-12 col-md-6"> <div class = "fixedSmallImage"><img src={Img01} class="img-responsive screenshotImg" alt=""/> </div></div>
             </div>
           </div>
         
@@ -148,7 +148,7 @@ function PathFinding() {
                     and eliminate those nodes.</p>
                 </div>
               </div>
-              <div class="col-xs-12 col-md-6"> <div class ="fixedSmallImage"><img src={Img05} class="img-responsive" alt=""/></div></div>
+              <div class="col-xs-12 col-md-6"> <div class ="fixedSmallImage"><img src={Img05} class="img-responsive screenshotImg" alt=""/></div></div>
             </div>
           </div>
 
@@ -164,7 +164,7 @@ function PathFinding() {
                     to the open list.</p>
                 </div>
               </div>
-              <div class="col-xs-12 col-md-6"> <div class = "fixedSmallImage"><img src={Img06} class="img-responsive" alt=""/> </div></div>
+              <div class="col-xs-12 col-md-6"> <div class = "fixedSmallImage"><img src={Img06} class="img-responsive screenshotImg" alt=""/> </div></div>
             </div>
           </div>
         </div>
@@ -181,7 +181,7 @@ function PathFinding() {
                     diagonally.</p>
                 </div>
               </div>
-              <div class="col-xs-12 col-md-6"><div class = "fixedSmallImage"><img src={Img07} class="img-responsive" alt=""/></div> </div>
+              <div class="col-xs-12 col-md-6"><div class = "fixedSmallImage"><img src={Img07} class="img-responsive screenshotImg" alt=""/></div> </div>
             </div>
           </div>
 
@@ -194,7 +194,7 @@ function PathFinding() {
                     parent of the green node.</p>
                 </div>
               </div>
-              <div class="col-xs-12 col-md-6"><div class = "fixedSmallImage">  <img src={Img08} class="img-responsive" alt=""/></div> </div>
+              <div class="col-xs-12 col-md-6"><div class = "fixedSmallImage">  <img src={Img08} class="img-responsive screenshotImg" alt=""/></div> </div>
             </div>
           </div>
 
@@ -208,7 +208,7 @@ function PathFinding() {
                     rather than goes through the green node.</p>
                 </div>
               </div>
-              <div class="col-xs-12 col-md-6"><div class = "fixedSmallImage">  <img src={Img09} class="img-responsive" alt=""/> </div></div>
+              <div class="col-xs-12 col-md-6"><div class = "fixedSmallImage">  <img src={Img09} class="img-responsive screenshotImg" alt=""/> </div></div>
             </div>
           </div>
 
@@ -221,7 +221,7 @@ function PathFinding() {
                     node and the node on the right.</p>
                 </div>
               </div>
-              <div class="col-xs-12 col-md-6"> <div class = "fixedSmallImage"><img src={Img10} class="img-responsive" alt=""/> </div></div>
+              <div class="col-xs-12 col-md-6"> <div class = "fixedSmallImage"><img src={Img10} class="img-responsive screenshotImg" alt=""/> </div></div>
             </div>
           </div>
         </div>        
@@ -244,7 +244,7 @@ function PathFinding() {
                         red circle node cannot be pruned.</p>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6"><div class = "fixedSmallImage"> <img src={Img11} class="img-responsive" alt=""/> </div></div>
+                <div class="col-xs-12 col-md-6"><div class = "fixedSmallImage"> <img src={Img11} class="img-responsive screenshotImg" alt=""/> </div></div>
                 </div>
             </div>
         </div>
@@ -288,7 +288,7 @@ function PathFinding() {
           <p>Example results</p>
           <div class="section-header text-center">
             <h3 class="section md-padding bg-grey"></h3>
-            <img src = {Img00} class="section md-padding bg-grey" />
+            <img src = {Img00} class="section md-padding bg-grey screenshotImg" />
   
           </div>
           <p>Images below are single-step process of a JPS searching</p>
@@ -300,22 +300,22 @@ function PathFinding() {
           <p></p>
           <div class="container">
             <div class="row">
-              <div class="col-xs-12 col-md-6"><div class = "fixedImage"> <img src={Img12} class="img-responsive" alt=""/> </div></div>
-              <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img13} class="img-responsive" alt=""/></div> </div>
+              <div class="col-xs-12 col-md-6"><div class = "fixedImage"> <img src={Img12} class="img-responsive screenshotImg" alt=""/> </div></div>
+              <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img13} class="img-responsive screenshotImg" alt=""/></div> </div>
             </div>
           </div>
 
           <div class="container">
             <div class="row">
-              <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img14} class="img-responsive" alt=""/></div> </div>
-              <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img15} class="img-responsive" alt=""/> </div></div>
+              <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img14} class="img-responsive screenshotImg" alt=""/></div> </div>
+              <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img15} class="img-responsive screenshotImg" alt=""/> </div></div>
             </div>
           </div>
 
           <div class="container">
             <div class="row">
-              <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img16} class="img-responsive" alt=""/> </div></div>
-              <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img17} class="img-responsive" alt=""/> </div></div>
+              <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img16} class="img-responsive screenshotImg" alt=""/> </div></div>
+              <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img17} class="img-responsive screenshotImg" alt=""/> </div></div>
             </div>
           </div>
 
@@ -412,8 +412,8 @@ function PathFinding() {
 
             <div class="container">
               <div class="row">
-                <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img18} class="img-responsive" alt=""/> </div></div>
-                <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img19} class="img-responsive" alt=""/> </div></div>
+                <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img18} class="img-responsive screenshotImg" alt=""/> </div></div>
+                <div class="col-xs-12 col-md-6"> <div class = "fixedImage"><img src={Img19} class="img-responsive screenshotImg" alt=""/> </div></div>
               </div>
             </div>  
         </div>

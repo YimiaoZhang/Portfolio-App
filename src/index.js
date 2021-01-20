@@ -4,6 +4,7 @@ import Home from './Home';
 import Blokus from './projects/Blokus';
 import Chomp from './projects/Chomp';
 import PathFinding from './projects/PathFinding';
+import Platform    from './projects/2DPlatformerGame';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
         <Route path="/projects/Blokus" component={Blokus} />
         <Route path="/projects/Chomp" component={Chomp} />
         <Route path="/projects/PathFinding" component={PathFinding} />
+        <Route path="/projects/2DPlatform" component={Platform} />
     </Switch>
   </BrowserRouter>,
 

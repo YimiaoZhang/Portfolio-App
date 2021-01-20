@@ -3,10 +3,12 @@ import React from "react";
 import blokusCover from "../images/Blokus/blokus-cover.jpg"
 import chompCover from "../images/Chomp/chomp-cover.jpg"
 import pathFindingCover from "../images/pathfinding/pathfinding-cover.jpg"
+import platformCover from "../images/2DPlatform/level.png"
 import netflix from "../images/netflix.png";
 import cityGuide from "../images/city-guide-app.png";
 import portfolio from "../images/portfolio.png";
 import taskManager from "../images/task-manager.png";
+
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
@@ -129,13 +131,13 @@ const Pofrfolio = () => {
 
           {/* Pathfinding */}
           <div class="col-md-3 col-xs-6 work">
-            <img className="portfolio-image" src={pathFindingCover} alt="2D Platformer Game"/>
+            <img className="portfolio-image" src={platformCover} alt="2D Platformer Game"/>
             <div class="overlay"></div>
             <div class="work-content">
               <span>C++</span>
               <h3>2D Platformer Game</h3>
               <div class="work-link">
-                <Link to="/projects/PathFinding" target = "_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
+                <Link to="/projects/2DPlatform" target = "_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
               </div>
             </div>
 				  </div>               

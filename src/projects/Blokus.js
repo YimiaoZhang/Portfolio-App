@@ -32,21 +32,21 @@ function Blokus () {
                 
 
                 <div class="section-header"> 
-                    <h5 class="section md-padding ">Main Menu</h5>
-                    <img src = {ImgMainMenu} class="section md-padding bg-grey" />
+                    <h5 class="section md-padding entity-title">Main Menu</h5>
+                    <img src = {ImgMainMenu} class="section md-padding bg-grey screenshotImg" />
                 </div>
                 
                 <div class="section-header ">
-                    <h5 class="section md-padding ">Setting Menu</h5>
-                    <img src = {ImgSettingMenu} class="section md-padding bg-grey" />
+                    <h5 class="section md-padding entity-title">Setting Menu</h5>
+                    <img src = {ImgSettingMenu} class="section md-padding bg-grey screenshotImg" />
                 </div>
                 <div class="section-header ">
-                    <h5 class="section md-padding ">Gameplay</h5>
-                    <img src = {ImgGamePlay} class="section md-padding bg-grey" />
+                    <h5 class="section md-padding entity-title">Gameplay</h5>
+                    <img src = {ImgGamePlay} class="section md-padding bg-grey screenshotImg" />
                 </div>
                 <div class="section-header ">
-                    <h5 class="section md-padding ">Score</h5>
-                    <img src = {ImgScore} class="section md-padding bg-grey" />
+                    <h5 class="section md-padding entity-title">Score</h5>
+                    <img src = {ImgScore} class="section md-padding bg-grey screenshotImg" />
                 </div>
             </div>
         </div>

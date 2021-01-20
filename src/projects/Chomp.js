@@ -33,8 +33,8 @@ function Chomp() {
 
           
           <div class="section-header text-center">
-            <h5 class="section md-padding bg-grey">Screenshots</h5>
-            <img src = {ImgGamePlay} class="section md-padding bg-grey" />
+            <h5 class="section md-padding bg-grey entity-title">Screenshots</h5>
+            <img src = {ImgGamePlay} class="section md-padding bg-grey screenshotImg" />
           </div>
   
         </div>
