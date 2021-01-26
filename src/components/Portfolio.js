@@ -8,7 +8,7 @@ import netflix from "../images/netflix.png";
 import cityGuide from "../images/city-guide-app.png";
 import portfolio from "../images/portfolio.png";
 import taskManager from "../images/task-manager.png";
-
+import bunnyCover from "../images/SaveTheBunny/SaveTheBunnyCover.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
@@ -127,14 +127,14 @@ const Pofrfolio = () => {
                 <Link to="/projects/PathFinding" target = "_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
               </div>
             </div>
-				  </div>          
+		  </div>          
 
-          {/* Pathfinding */}
+          {/* 2D Platform */}
           <div class="col-md-3 col-xs-6 work">
             <img className="portfolio-image" src={platformCover} alt="2D Platformer Game"/>
             <div class="overlay"></div>
             <div class="work-content">
-              <span>C++</span>
+              <span>C++, SFML</span>
               <h3>2D Platformer Game</h3>
               <div class="work-link">
                 <Link to="/projects/2DPlatform" target = "_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
@@ -167,10 +167,23 @@ const Pofrfolio = () => {
                 <Link to="/projects/Chomp" target = "_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
               </div>
             </div>
-				  </div>
-
-
+           </div>
         </div>
+
+        <div className="row">
+            <div class="col-md-3 col-xs-6 work">
+                <img className="portfolio-image" src={bunnyCover} alt="SaveTheBunny" />
+                <div class="overlay"></div>
+                <div class="work-content">
+                    <span>C#, Unity</span>
+                    <h3>Save The Bunny</h3>
+                    <div class="work-link">
+                        <a href="https://simmer.io/@Sloan/save-the-bunny" target="_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
       </div>
 
     </div>
