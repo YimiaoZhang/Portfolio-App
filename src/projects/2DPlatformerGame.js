@@ -1,12 +1,12 @@
 import React from 'react'
+// CSS
+import { Divider } from '@material-ui/core';
 import '../App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Carousel } from "react-responsive-carousel";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faArrowRight}from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../components/Navbar";
-import { Divider } from 'semantic-ui-react';
 
+
+// Image
 import ImgMainMenu from"../images/2DPlatform/mainmenu.png";
 import ImgLevel from"../images/2DPlatform/level.png";
 import ImgSettingMenu from"../images/2DPlatform/settingMenu.png";

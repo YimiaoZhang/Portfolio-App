@@ -1,12 +1,14 @@
 import React from 'react'
+
+// CSS
 import '../App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight }from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../components/Navbar";
-import 'semantic-ui-css/semantic.min.css';
-import { Divider } from 'semantic-ui-react';
+import { Divider } from '@material-ui/core';
+
 // Images 
 import sampleStates from "../images/pathfinding/sampleStates.PNG";
 import Img00 from "../images/pathfinding/00.PNG";

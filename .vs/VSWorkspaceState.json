@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\projects"
   ],
+  "SelectedNode": "\\src\\projects\\Chomp.js",
   "PreviewInSolutionExplorer": false
 }

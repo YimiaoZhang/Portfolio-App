@@ -1,12 +1,12 @@
 import React from 'react'
+// CSS
 import '../App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Carousel } from "react-responsive-carousel";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faArrowRight}from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../components/Navbar";
-import ImgGamePlay from"../images/Chomp/gameplay.PNG";
-import { Divider } from 'semantic-ui-react';
+import { Divider } from '@material-ui/core';
+
+// Image
+import ImgGamePlay from "../images/Chomp/gameplay.PNG";
 function Chomp() {
     return (
       <div class = "project">
